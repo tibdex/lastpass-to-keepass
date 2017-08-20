@@ -1,0 +1,26 @@
+{
+  "name": "lastpass-to-keepass",
+  "private": true,
+  "dependencies": {
+    "file-saver": "^1.3.3",
+    "kdbxweb": "^1.0.1",
+    "papaparse": "^4.3.5",
+    "react-scripts": "^1.0.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "eslint-plugin-react": "^7.2.1",
+    "gh-pages": "^1.0.0",
+    "prettier": "^1.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://tibdex.github.io/lastpass-to-keepass"
+}
